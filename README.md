@@ -1,6 +1,6 @@
 # ALPHA DAO
 
-**This is ALPHA DAO's own copy of [btc-dao](https://github.com/Bitcoin-DAO/btc-dao) on testnet4:** a private alpha with five council members on SeedSigner keys, 3 of 5, founded at a workshop. Practice votes. It runs btc-dao v0.9.3 (commit 4454ff6). The site is at **https://alpha.byob.zone**, a web address of its own, so its members' keys and passkeys are kept apart from every other DAO's (code review finding I-1). It is built from `config/dao.json` by `.github/workflows/pages.yml`. Code changes are made in btc-dao and pulled in here; only `config/dao.json` and this note are its own (the charter is UNO DAO's, as a stand-in).
+**This is ALPHA DAO's own copy of [btc-dao](https://github.com/Bitcoin-DAO/btc-dao) on testnet4:** a private alpha with five council members on SeedSigner keys, 3 of 5, founded at a workshop. Practice votes. It runs btc-dao v0.9.4 (commit 1fcaff9). The site is at **https://alpha.byob.zone**, a web address of its own, so its members' keys and passkeys are kept apart from every other DAO's (code review finding I-1). It is built from `config/dao.json` by `.github/workflows/pages.yml`. Code changes are made in btc-dao and pulled in here; only `config/dao.json` and this note are its own (the charter is UNO DAO's, as a stand-in).
 
 **Chain sources:** the DAO's chain gateway first (`btc-dao-gateway`), mempool.space directly as a fallback.
 
