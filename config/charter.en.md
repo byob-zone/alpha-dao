@@ -1,27 +1,27 @@
-# UNO founding charter
+# ALPHA DAO founding charter
 
 November 2026 · [Testo italiano (vincolante)](charter.it.md)
 
 **English translation.** The Italian text is binding (Article 13). **Draft:** to be reviewed with a legal adviser in Italy and the UK before real funds are used. Values in square brackets are decided at the founding meeting.
 
-This charter says what UNO is for and how we work together. Every member accepts it on joining. The technical rules live in the DAO's settings; this charter sets out the spirit and the limits.
+This charter says what ALPHA DAO is for and how we work together. Every member accepts it on joining. The technical rules live in the DAO's settings; this charter sets out the spirit and the limits.
 
 ## Article 1 · Name and purpose
 
-1. The group is called **UNO**. It is the first DAO built with btc-dao: the trial, on Bitcoin's test network, of a bitcoin community's bitcoin treasury.
+1. The group is called **ALPHA DAO**. It is the private alpha of btc-dao: the first DAO founded at a workshop with people other than the developer, on Bitcoin's test network, as a trial of a bitcoin community's bitcoin treasury.
 2. The funds are used to grow and support the local bitcoin community, for example through meetups, education, printed material, small projects and people who work for the community. [Detailed purpose to be completed at the founding meeting.]
-3. UNO is also a trial: it shows that a group can hold and spend money together, openly, using bitcoin alone.
+3. ALPHA DAO is also a trial: it shows that a group can hold and spend money together, openly, using bitcoin alone.
 
 ## Article 2 · What it is and what it is not
 
-1. UNO is a way for people to organise. It is not a company or a registered association. [Legal form to be confirmed with the legal adviser.]
+1. ALPHA DAO is a way for people to organise. It is not a company or a registered association. [Legal form to be confirmed with the legal adviser.]
 2. There are no shares, tokens, dividends or returns. Joining costs nothing and earns nothing: it gives a vote.
-3. A donation to UNO is a gift. It gives no rights over the funds and no extra votes.
+3. A donation to ALPHA DAO is a gift. It gives no rights over the funds and no extra votes.
 4. No single person can spend the funds. The website and the software cannot spend them.
 
 ## Article 3 · Members
 
-1. **Who can join.** Anyone aged 18 or over who shares UNO's purpose and is sponsored by a member who knows them personally.
+1. **Who can join.** Anyone aged 18 or over who shares ALPHA DAO's purpose and is sponsored by a member who knows them personally.
 2. **How to join.** The candidate is verified by one council member in person, or by two council members on a video call. They accept this charter, and members vote on admitting them. Founding members join at the founding meeting, without a vote.
 3. **Name.** A pseudonym may be used. The chosen name and every vote stay public forever.
 4. **Rights.** Every member can make proposals and has one vote on every proposal. All votes count equally.
@@ -65,7 +65,7 @@ This charter says what UNO is for and how we work together. Every member accepts
 3. A proposal is valid if at least [one third] of those entitled to vote take part; abstentions count towards quorum.
 4. **Simple majority** for payments, statements and new members. **Two thirds** for removals, rule changes, council changes, changes to this charter and closing the DAO.
 5. At the close a council member signs the final count, which fixes the result and the proposal's number.
-6. Discussion happens elsewhere, at meetups and in the community's groups. UNO records the decisions.
+6. Discussion happens elsewhere, at meetups and in the community's groups. ALPHA DAO records the decisions.
 
 ## Article 7 · Payments
 
@@ -76,16 +76,16 @@ This charter says what UNO is for and how we work together. Every member accepts
 
 ## Article 8 · Public record and personal data
 
-1. Everything UNO decides is public: members, rules, proposals, votes, balance and payments. Anyone can check it without signing in.
+1. Everything ALPHA DAO decides is public: members, rules, proposals, votes, balance and payments. Anyone can check it without signing in.
 2. The record is permanent. Proposals, votes and pseudonyms are signed, kept on several servers and timestamped on Bitcoin, so they cannot be changed or deleted.
-3. For this reason UNO asks for the minimum: a pseudonym and a key. It does not ask for a real name, email, phone number or address. The bitcoin addresses of payments are public; a recipient uses an address they do not use elsewhere.
+3. For this reason ALPHA DAO asks for the minimum: a pseudonym and a key. It does not ask for a real name, email, phone number or address. The bitcoin addresses of payments are public; a recipient uses an address they do not use elsewhere.
 4. On joining, every member declares that they understand and accept that their pseudonym and votes stay public forever.
 5. [Text on the processing of personal data to be written with the legal adviser: legal basis, data subjects' rights, and how the right to erasure is reconciled with a permanent record.]
 
 ## Article 9 · Conduct
 
 1. Members treat each other with respect, even when they disagree.
-2. No harassment, threats or discrimination, in UNO's activities or wherever the community meets.
+2. No harassment, threats or discrimination, in ALPHA DAO's activities or wherever the community meets.
 3. Anyone proposing a payment says honestly what it is for, and declares any personal benefit.
 4. Decisions taken by vote are respected, including by those who voted against. Anyone who disagrees can make a new proposal.
 5. Anyone who seriously breaches this charter can be removed under Article 3.
@@ -98,15 +98,15 @@ This charter says what UNO is for and how we work together. Every member accepts
 
 ## Article 11 · Closing
 
-1. UNO is closed by a closing proposal approved by two thirds.
+1. ALPHA DAO is closed by a closing proposal approved by two thirds.
 2. The proposal names the wallet that receives the whole balance: for example another bitcoin community's treasury or a cause the members choose. The recipient confirms the address.
-3. After the vote, the council sends the whole balance to the recipient. From then on UNO accepts no more proposals; the record stays available.
+3. After the vote, the council sends the whole balance to the recipient. From then on ALPHA DAO accepts no more proposals; the record stays available.
 
 ## Article 12 · Trial phase
 
-1. UNO lives on Bitcoin's test network (testnet4), with no real money, as one DAO in two modes: practice (10-minute votes, test keys on the phone) and the full trial (3-day votes, keys on SeedSigners). It moves from the first to the second by a rule-change vote and a council change; members and record carry on. At the end UNO is closed by returning the test coins to the BTC DAO Testnet Treasury.
+1. ALPHA DAO lives on Bitcoin's test network (testnet4), with no real money. The council's keys are made on SeedSigners at the founding workshop. It starts with practice votes (10 minutes), so the founding day can try everything in one sitting, and moves to live votes (3 days) by a rule-change vote; members and record carry on. At the end ALPHA DAO is closed by returning the test coins to the BTC DAO Testnet Treasury.
 2. The move to the main network comes only after recovering the funds without the website has been tested, and with the cap in Article 5.
-3. The DAO on the main network has a name of its own, chosen by the council before its founding. When it is founded, every member of UNO becomes a founding member, without a new vote. They create new keys and new cards.
+3. The DAO on the main network has a name of its own, chosen by the council before its founding. When it is founded, every member of ALPHA DAO becomes a founding member, without a new vote. They create new keys and new cards.
 
 ## Article 13 · Language
 
