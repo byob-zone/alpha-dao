@@ -34,7 +34,7 @@ This charter says what UNO is for and how we work together. Every member accepts
 
 ## Article 4 · The council
 
-1. **Make-up.** The council has five members, chosen by the members. Each holds one of the treasury's five keys; three are needed for every payment. No two council members may share a household or an employer.
+1. **Make-up.** The council has three members, chosen by the members. Each holds one of the treasury's three keys; two are needed for every payment. The members may grow the council later (for example to five members, three needed) by a council change. No two council members may share a household or an employer.
 2. **Role.** The council carries out the members' decisions. It does not decide in their place.
 3. **Duties.** Every council member:
    - signs only payments the members have approved, after checking them in full on the screen of their own signing device;
@@ -44,15 +44,15 @@ This charter says what UNO is for and how we work together. Every member accepts
    - verifies new members and confirms changes to the member list and settings that the members have approved;
    - tells the others at once if they lose a key or fear it has been seen.
 4. **Refusal.** A council member may refuse to sign an approved payment, but must give the reason publicly.
-5. **Limits.** The council cannot spend without a members' vote. If three council members did so anyway, the payment would be visible to everyone, and the members can replace the council by a two-thirds vote.
+5. **Limits.** The council cannot spend without a members' vote. If two council members did so anyway, the payment would be visible to everyone, and the members can replace the council by a two-thirds vote.
 6. **Stepping down.** A council member who wants to step down tells the council; the members vote on a council change, and the treasury moves to new keys before they leave.
-7. **Absence.** If a council member misses more than one signing round without notice, or can no longer do the role, the council proposes a council change at once. The treasury must never be left with only three usable keys.
+7. **Absence.** If a council member misses more than one signing round without notice, or can no longer do the role, the council proposes a council change at once. The treasury must never be left with only two usable keys.
 8. **Death or incapacity.** A council member's seed belongs to the DAO, not to the person, and does not pass to their heirs. On its own it is worth nothing: two more seeds and the recovery sheet are needed. Every council member keeps a sealed note with their plate, without the seed, asking their family to contact the council. The council replaces the key through a council change, and asks for the plate and the SeedQR card to be destroyed in front of a council member.
 
 ## Article 5 · The treasury
 
-1. The treasury holds only bitcoin, in a 3-of-5 multisignature wallet. Balance, income and payments are public.
-2. With the recovery sheet and three council seeds, the funds can be recovered with any standard bitcoin wallet, even without UNO's website.
+1. The treasury holds only bitcoin, in a 2-of-3 multisignature wallet. Balance, income and payments are public.
+2. With the recovery sheet and two council seeds, the funds can be recovered with any standard bitcoin wallet, even without ALPHA DAO's website.
 3. **The funds may be used** only for the purpose in Article 1, including fees and expenses for people, members or not, who work for the community.
 4. **The funds may not be used** for illegal activities, investment or speculation, loans, or hidden or unapproved payments.
 5. During the trial the treasury is capped at [5,000,000 sats]. When the cap is reached, the website stops showing the donation address.
@@ -92,7 +92,7 @@ This charter says what UNO is for and how we work together. Every member accepts
 
 ## Article 10 · Changes
 
-1. This charter is changed by a rule-change proposal, approved by two thirds and confirmed by three council members.
+1. This charter is changed by a rule-change proposal, approved by two thirds and confirmed by two council members.
 2. The version in force is recorded in the DAO's settings with its digital fingerprint, so anyone can check which text applies.
 3. Existing members do not need to accept the charter again after a change; they can always leave if they disagree.
 
