@@ -10,6 +10,9 @@
   "network": "testnet4",
   "site": "https://alpha.byob.zone",
   "passkeyDomain": "alpha.byob.zone",
+  "organiser": "[organiser identity key, 64 hex: Founder sign-up → Copy the key]",
+  "foundingByInvitation": true,
+  "repo": "https://github.com/byob-zone/alpha-dao",
   "council": [
     {
       "label": "Council 1",

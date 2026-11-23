@@ -1,10 +1,10 @@
 # ALPHA DAO
 
-**This is ALPHA DAO's own copy of [btc-dao](https://github.com/Bitcoin-DAO/btc-dao) on testnet4:** a private alpha with three council members on SeedSigner keys, 2 of 3 (the developer plus two others), founded at a workshop, plus ordinary members on their phones. It grows to 3 of 5 later by a council change. Practice votes (10 minutes) until the live-votes rule change at the second meeting. It runs btc-dao v0.9.8 (commit f276f8b), with docs from btc-dao main at e1e5f31. The site is at **https://alpha.byob.zone**, a web address of its own, so its members' keys and passkeys are kept apart from every other DAO's (code review finding I-1). It is built from `config/dao.json` by `.github/workflows/pages.yml`. Code changes are made in btc-dao and pulled in here; only `config/dao.json` and this note are its own (the charter, in `config/charter.it.md` with an English translation, is ALPHA DAO's own, adapted from UNO's).
+**This is ALPHA DAO's own copy of [btc-dao](https://github.com/Bitcoin-DAO/btc-dao) on testnet4:** a private alpha with three council members on SeedSigner keys, 2 of 3 (the developer plus two others), founded at a workshop, plus ordinary members on their phones. It grows to 3 of 5 later by a council change. Practice votes (10 minutes) until the live-votes rule change at the second meeting. It runs btc-dao v0.9.9 (commit 03e9e40), docs included. The site is at **https://alpha.byob.zone**, a web address of its own, so its members' keys and passkeys are kept apart from every other DAO's (code review finding I-1). It is built from `config/dao.json` by `.github/workflows/pages.yml`. Code changes are made in btc-dao and pulled in here; only `config/dao.json` and this note are its own (the charter, in `config/charter.it.md` with an English translation, is ALPHA DAO's own, adapted from UNO's).
 
 **Chain sources:** the DAO's chain gateway first (`btc-dao-gateway`), mempool.space directly as a fallback.
 
-Not yet founded. After the founding: the DAO id goes into `config/dao.json` (`daoId`) and the relay is pinned to it.
+Not yet founded. **Founding guard:** founding is by invitation (`foundingByInvitation`), and once the organiser's identity key is set in `config/dao.json` (`organiser`), only the organiser's founding counts at this address. After the founding, the Council page's **Pin the DAO id** task puts the DAO id into `config/dao.json` (`daoId`); the relay is pinned with every DAO still on it.
 
 ---
 
