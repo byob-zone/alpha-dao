@@ -34,7 +34,7 @@ Questa carta dice a cosa serve UNO e come lavoriamo insieme. Ogni membro la acce
 
 ## Articolo 4 · Il Consiglio
 
-1. **Composizione.** Il Consiglio ha cinque membri, scelti dai membri. Ognuno custodisce una delle cinque chiavi della tesoreria; ne servono tre per ogni pagamento. Due membri del Consiglio non devono condividere la casa o il datore di lavoro.
+1. **Composizione.** Il Consiglio ha tre membri, scelti dai membri. Ognuno custodisce una delle tre chiavi della tesoreria; ne servono due per ogni pagamento. I membri possono ampliare il Consiglio in seguito (per esempio a cinque membri, tre necessari) con un cambio del Consiglio. Due membri del Consiglio non devono condividere la casa o il datore di lavoro.
 2. **Compito.** Il Consiglio esegue le decisioni dei membri. Non decide al loro posto.
 3. **Doveri.** Ogni membro del Consiglio:
    - firma soltanto pagamenti approvati dai membri, dopo averli controllati per intero sullo schermo del proprio dispositivo di firma;
@@ -44,15 +44,15 @@ Questa carta dice a cosa serve UNO e come lavoriamo insieme. Ogni membro la acce
    - verifica i nuovi membri e conferma le modifiche all'elenco dei membri e alle impostazioni approvate dai membri;
    - avvisa subito gli altri se perde una chiave o teme che sia stata vista.
 4. **Rifiuto.** Un membro del Consiglio può rifiutarsi di firmare un pagamento approvato, ma deve dire pubblicamente il motivo.
-5. **Limiti.** Il Consiglio non può spendere senza un voto dei membri. Se tre membri del Consiglio lo facessero comunque, il pagamento resterebbe visibile a tutti, e i membri possono sostituire il Consiglio con un voto dei due terzi.
+5. **Limiti.** Il Consiglio non può spendere senza un voto dei membri. Se due membri del Consiglio lo facessero comunque, il pagamento resterebbe visibile a tutti, e i membri possono sostituire il Consiglio con un voto dei due terzi.
 6. **Uscita dal Consiglio.** Un membro del Consiglio che vuole lasciare l'incarico lo dice al Consiglio; i membri votano un cambio del Consiglio, e la tesoreria passa a nuove chiavi prima della sua uscita.
-7. **Assenza.** Se un membro del Consiglio salta più di un giro di firma senza avvisare, o non può più svolgere il compito, il Consiglio propone subito un cambio del Consiglio. La tesoreria non deve mai restare con solo tre chiavi utilizzabili.
+7. **Assenza.** Se un membro del Consiglio salta più di un giro di firma senza avvisare, o non può più svolgere il compito, il Consiglio propone subito un cambio del Consiglio. La tesoreria non deve mai restare con solo due chiavi utilizzabili.
 8. **Decesso o incapacità.** Il seme di un membro del Consiglio appartiene alla DAO, non alla persona, e non passa agli eredi. Da solo non vale nulla: servono altri due semi e il foglio di recupero. Ogni membro del Consiglio conserva con la piastra una nota sigillata, senza il seme, che chiede ai familiari di contattare il Consiglio. Il Consiglio sostituisce la chiave con un cambio del Consiglio, e chiede che la piastra e la carta SeedQR siano distrutte davanti a un membro del Consiglio.
 
 ## Articolo 5 · La tesoreria
 
-1. La tesoreria contiene solo bitcoin, in un portafoglio multifirma da 3 su 5. Saldo, entrate e uscite sono pubblici.
-2. Con il foglio di recupero e tre semi del Consiglio, i fondi si recuperano con qualsiasi portafoglio bitcoin standard, anche senza il sito di UNO.
+1. La tesoreria contiene solo bitcoin, in un portafoglio multifirma da 2 su 3. Saldo, entrate e uscite sono pubblici.
+2. Con il foglio di recupero e due semi del Consiglio, i fondi si recuperano con qualsiasi portafoglio bitcoin standard, anche senza il sito di ALPHA DAO.
 3. **I fondi possono servire** solo allo scopo dell'articolo 1, compresi i compensi e i rimborsi a persone, membri o no, che lavorano per la comunità.
 4. **I fondi non possono servire** ad attività illegali, a investimenti o speculazioni, a prestiti, né a pagamenti nascosti o non approvati.
 5. Durante la prova la tesoreria ha un tetto di [5.000.000 sats]. Raggiunto il tetto, il sito smette di mostrare l'indirizzo per le donazioni.
@@ -92,7 +92,7 @@ Questa carta dice a cosa serve UNO e come lavoriamo insieme. Ogni membro la acce
 
 ## Articolo 10 · Modifiche
 
-1. Questa carta si modifica con una proposta di modifica delle regole, approvata dai due terzi e confermata da tre membri del Consiglio.
+1. Questa carta si modifica con una proposta di modifica delle regole, approvata dai due terzi e confermata da due membri del Consiglio.
 2. La versione in vigore è registrata nelle impostazioni della DAO con la sua impronta digitale, così chiunque può verificare quale testo vale.
 3. Chi è già membro non deve riaccettare la carta dopo una modifica; può sempre uscire se non è d'accordo.
 
