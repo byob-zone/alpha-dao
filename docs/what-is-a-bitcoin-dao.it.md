@@ -26,16 +26,16 @@ Una DAO bitcoin ha due tipi di persone, e tenerle separate è ciò che la rende 
 | Ruolo | Chi | Che cosa fa | Che cosa gli serve |
 | --- | --- | --- | --- |
 | Membro | Chiunque il gruppo ammetta | Propone idee e le vota | Un telefono |
-| Membro del Consiglio | Un piccolo gruppo scelto dai membri, cinque nella prima DAO | Approva i pagamenti firmandoli, e conferma le modifiche all'elenco dei membri e alle regole | Un piccolo dispositivo di firma tenuto offline, e la propria chiave su una carta a casa |
+| Membro del Consiglio | Un piccolo gruppo scelto dai membri, cinque nella prima DAO | Approva i pagamenti firmandoli, e conferma le modifiche all'elenco dei membri e alle regole | La propria chiave su una carta a casa, da usare con un piccolo dispositivo di firma offline che il Consiglio può condividere |
 
 I membri decidono; il Consiglio esegue. Il Consiglio non può spendere senza un voto, e i membri non possono spendere senza il Consiglio. Nella prima DAO servono le firme di tre dei cinque membri del Consiglio prima che si muova anche un solo satoshi.
 
 Un pagamento va dall'idea al versamento in cinque passi:
 
 1. **Proposta.** Un membro scrive una breve proposta: a cosa servono i soldi, quanti, e dove vanno. L'indirizzo bitcoin di chi riceve va in una casella apposta, così si può controllare.
-2. **Voto.** I membri votano sì, no o astensione per sette giorni. I voti sono firmati e pubblici.
+2. **Voto.** I membri votano sì, no o astensione per il periodo di voto stabilito dalla DAO, di solito qualche giorno. I voti sono firmati e pubblici.
 3. **Conteggio.** Alla chiusura del voto, un membro del Consiglio firma il conteggio finale, così nessuno può aggiungere un voto dopo.
-4. **Firma.** Una volta al mese tutti i pagamenti approvati partono insieme. Ogni membro del Consiglio controlla importi e indirizzi sul proprio dispositivo e firma. Alla terza firma il pagamento parte.
+4. **Firma.** A ogni turno di pagamento, settimanale o mensile come decide la DAO, tutti i pagamenti approvati partono insieme. Ogni membro del Consiglio carica la propria chiave nel dispositivo di firma, controlla importi e indirizzi sul suo schermo, e firma. Alla terza firma il pagamento parte.
 5. **Registro.** Il pagamento compare nella pagina della tesoreria, collegato alla sua proposta e al suo voto, visibile a tutti.
 
 ## Partecipare
@@ -74,13 +74,44 @@ Una DAO bitcoin va bene per qualsiasi gruppo che condivide del denaro, vuole che
 - **Gruppi sparsi in più paesi.** Un'associazione di emigrati, una comunità online o un progetto open source, dove i membri si incontrano in video e il denaro deve passare i confini senza una banca.
 - **Premi e concorsi.** Un montepremi comune, pagato quando il voto dei membri sceglie un vincitore.
 
+## A confronto con una cooperativa
+
+Tutto ciò che serve per gestire una piccola cooperativa, senza le carte. Una DAO bitcoin svolge gli stessi compiti quotidiani di una piccola cooperativa, ma il software fa il lavoro che fanno notai, registri, banche e commercialisti. La colonna della cooperativa segue le regole italiane.
+
+| | Piccola cooperativa | DAO bitcoin |
+| --- | --- | --- |
+| Persone minime | 3 (*piccola cooperativa*), altrimenti 9 | 3 |
+| Costituzione | Atto notarile e statuto, Registro delle Imprese entro 10 giorni, Albo delle Cooperative entro 30 giorni | Un incontro di fondazione, di persona o in video; chiavi create e statuto adottato nello stesso giorno |
+| Tempo per partire | Settimane | Un giorno |
+| Cambiare le regole | Le modifiche allo statuto tornano dal notaio | Votano i membri |
+| Denaro | Conto corrente aziendale | Un portafoglio bitcoin comune; le chiavi le tiene il Consiglio |
+| Decisioni | Assemblee, consigli di amministrazione, libri sociali | Proposte e voti nell'app |
+| Conti | Bilancio annuale, preparato da un commercialista | Ogni pagamento visibile nel registro pubblico mentre avviene |
+| Controlli | Revisione cooperativa biennale | Chiunque può controllare il registro in ogni momento |
+| Forma giuridica | Ente con responsabilità limitata | Nessun ente giuridico |
+
+### Costi di gestione
+
+| Costo | Piccola cooperativa | DAO bitcoin |
+| --- | --- | --- |
+| Costituzione | Circa 2.500 € (notaio, iscrizioni) | Circa 60–90 € per un dispositivo di firma condiviso (un SeedSigner); qualche euro in più per carte delle chiavi e piastre d'acciaio |
+| Minimo di legge ogni anno | 1.000–2.000 € (diritto camerale, revisione biennale, deposito del bilancio, quota associativa) | 0 € |
+| Commercialista ogni anno | Circa 1.800–2.500 € | 0 € |
+| Sito e app ogni anno | Non compreso | 0 € con hosting gratuito; un dominio proprio è facoltativo, circa 10–15 € |
+| Per pagamento | Commissioni bancarie | Una commissione di rete, di solito da pochi centesimi a qualche euro |
+| **Totale annuo** | **Circa 2.800–4.500 €** | **Circa 0–15 €, più le commissioni** |
+
+Le cifre della cooperativa sono stime pubblicate (novembre 2026) e variano per tipo e regione; quelle della DAO sono approssimative. Fonti: [NotaiOnline, documenti per costituire una cooperativa](https://notaionline.it/documenti/costituzione-societa/cooperativa/); [Emilia-Romagna Startup, costi di costituzione e gestione](https://www.emiliaromagnastartup.it/it/node/5192); [BusinessOnline, costo del commercialista per una piccola società](https://www.businessonline.it/articoli/quanto-costa-un-commercialista-allanno-per-la-gestione-di-una-srl-i-criteri-e-variabili-da-considerare.html).
+
+Ciò che una cooperativa ha e una DAO no è la personalità giuridica. Una DAO non può firmare contratti né possedere beni a proprio nome, e chi agisce per il gruppo lo fa a nome proprio. Per questo una DAO tratta con persone e fornitori che accettano bitcoin, e un gruppo che ha bisogno di dipendenti, prestiti bancari o contributi pubblici ha ancora bisogno di una forma registrata.
+
 ## Che cosa non è
 
 - **Non è un investimento.** Non ci sono token, quote o rendimenti. Entrare non costa nulla e non fa guadagnare nulla; dà un voto.
 - **Non è una società né un ente giuridico.** Una DAO è un modo di organizzarsi, non un soggetto registrato. Che cosa significhi per legge, per le tasse o per le responsabilità dipende dal paese e da che cosa fa il gruppo: chiedi un parere prima di gestire somme importanti.
 - **Non è anonima.** I membri possono usare uno pseudonimo, ma ogni voto è pubblico e permanente, e i membri del Consiglio si conoscono tra loro.
-- **Non è istantanea.** Un voto dura una settimana e i pagamenti partono una volta al mese. È un ritmo voluto: dà tempo di leggere, discutere e controllare.
-- **Non è un luogo di discussione.** Le proposte rimandano a dove il gruppo già si parla: un incontro, una chat, un forum. La DAO registra la decisione.
+- **Non è istantanea.** Ogni DAO sceglie il proprio ritmo: un voto dura di solito qualche giorno, e i pagamenti partono a turni regolari, settimanali o mensili. È un ritmo voluto: dà tempo di leggere, discutere e controllare.
+- **Non è una chat di gruppo.** Ogni proposta ha la sua discussione nell'app, dalla prima idea al risultato, conservata nel registro. Le chiacchiere e le chiamate di ogni giorno restano dove il gruppo già si parla.
 - **Non è finita.** Il software è in prova sulla rete di test di Bitcoin. Niente qui è ancora pronto per denaro vero.
 
 ## Fondarne una
