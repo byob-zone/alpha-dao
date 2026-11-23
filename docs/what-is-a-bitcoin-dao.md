@@ -26,16 +26,16 @@ A Bitcoin DAO has two kinds of people, and keeping them separate is what makes i
 | Role | Who | What they do | What they need |
 | --- | --- | --- | --- |
 | Member | Anyone the group admits | Propose ideas and vote on them | A phone |
-| Council member | A small group chosen by the members, five in the first DAO | Approve payments by signing, and confirm changes to the member list and rules | A small signing device kept offline, and their key on a card at home |
+| Council member | A small group chosen by the members, five in the first DAO | Approve payments by signing, and confirm changes to the member list and rules | Their own key on a card at home, used with a small offline signing device that the council can share |
 
 Members decide; the council carries out the decision. The council cannot spend without a vote, and members cannot spend without the council. In the first DAO, any three of the five council members must sign before a single satoshi moves.
 
 A payment goes from idea to payment in five steps:
 
 1. **Propose.** A member writes a short proposal: what the money is for, how much, and where it goes. The recipient's Bitcoin address goes in its own box, so it can be checked.
-2. **Vote.** Members vote yes, no or abstain for seven days. Votes are signed and public.
+2. **Vote.** Members vote yes, no or abstain for the voting period the DAO has set, usually a few days. Votes are signed and public.
 3. **Count.** When the vote closes, a council member signs the final count, so nobody can slip in a vote afterwards.
-4. **Sign.** Once a month, every approved payment goes out together. Each council member checks the amounts and addresses on their own device and signs. At the third signature the payment is sent.
+4. **Sign.** In each payout round, weekly or monthly as the DAO decides, every approved payment goes out together. Each council member loads their key into the signing device, checks the amounts and addresses on its screen, and signs. At the third signature the payment is sent.
 5. **Record.** The payment appears on the treasury page, linked to its proposal and vote, for anyone to see.
 
 ## Taking part
@@ -74,13 +74,44 @@ A Bitcoin DAO suits any group that shares money, wants everyone to have a say, a
 - **Groups spread across countries.** A diaspora association, an online community or an open-source project, where members meet by video and money needs to cross borders without a bank.
 - **Prizes and competitions.** A pooled prize fund paid out when the members' vote picks a winner.
 
+## Compared with a co-op
+
+Everything needed to run a small cooperative, without the paperwork. A Bitcoin DAO covers the same everyday jobs as a small co-op, but the software does the work that notaries, registries, banks and accountants do. The co-op column uses Italian rules as the example.
+
+| | Small co-op (Italy) | Bitcoin DAO |
+| --- | --- | --- |
+| Minimum people | 3 (a *piccola cooperativa*), otherwise 9 | 3 |
+| Founding | Notary deed and statute, Business Register within 10 days, National Co-op Register within 30 days | A founding meeting, in person or by video; keys made and charter adopted the same day |
+| Time to start | Weeks | A day |
+| Changing the rules | Statute changes go back to the notary | Members vote |
+| Money | Business bank account | Shared bitcoin wallet; the council holds the keys |
+| Decisions | Assemblies, board meetings, minute books | Proposals and votes in the app |
+| Accounts | Annual financial statement, prepared by an accountant | Every payment visible on the public record as it happens |
+| Oversight | Biennial co-op inspection | Anyone can check the record at any time |
+| Legal status | Legal entity with limited liability | Not a legal entity |
+
+### Running costs
+
+| Cost | Small co-op (Italy) | Bitcoin DAO |
+| --- | --- | --- |
+| Setting up | About €2,500 (notary, registrations) | About €60–90 for one shared signing device (a SeedSigner); key cards and steel plates a few euros more |
+| Legal minimum each year | €1,000–2,000 (Chamber of Commerce fee, biennial inspection, filing the accounts, co-op association dues) | €0 |
+| Accountant each year | About €1,800–2,500 | €0 |
+| Website and app hosting each year | Not included | €0 on free hosting tiers; an own domain is optional, about €10–15 |
+| Per payment | Bank charges | A network fee, usually cents to a few euros |
+| **Total per year** | **About €2,800–4,500** | **About €0–15, plus fees** |
+
+Co-op figures are published estimates (November 2026) and vary by type and region; DAO figures are approximate. Sources: [NotaiOnline, co-op founding checklist](https://notaionline.it/documenti/costituzione-societa/cooperativa/); [Emilia-Romagna Startup, co-op setup and running costs](https://www.emiliaromagnastartup.it/it/node/5192); [BusinessOnline, accountant fees for a small company](https://www.businessonline.it/articoli/quanto-costa-un-commercialista-allanno-per-la-gestione-di-una-srl-i-criteri-e-variabili-da-considerare.html).
+
+What a co-op has and a DAO does not is legal personality. A DAO cannot sign contracts or own property in its own name, and anyone who acts for the group does so in their own name. That is why a DAO deals with people and suppliers who accept bitcoin, and why a group that needs employees, bank loans or public grants still needs a registered form.
+
 ## What it is not
 
 - **Not an investment.** There is no token, no share and no return. Joining costs nothing and earns nothing; it gives you a vote.
 - **Not a company or legal body.** A DAO is a way of organising, not a registered entity. What it means legally, for tax or for liability, depends on the country and on what the group does; take local advice before holding significant sums.
 - **Not anonymous.** Members can use nicknames, but every vote is public and permanent, and council members are known to each other.
-- **Not instant.** Votes take a week and payments go out once a month. That pace is deliberate: it gives people time to read, discuss and check.
-- **Not a place for discussion.** Proposals link to wherever the group already talks: a meeting, a chat group, a forum. The DAO records the decision.
+- **Not instant.** Each DAO sets its own pace: votes typically run for a few days, and payments go out in regular rounds, weekly or monthly. That pace is deliberate: it gives people time to read, discuss and check.
+- **Not a chat group.** Each proposal has its own discussion thread in the app, from the first idea to the result, kept as part of the record. Everyday chat and calls still happen wherever the group already talks.
 - **Not finished.** The software is being tested on Bitcoin's test network. Nothing here is ready for real funds yet.
 
 ## Starting your own

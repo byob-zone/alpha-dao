@@ -10,7 +10,8 @@
 | --- | --- | --- |
 | UNO practice | testnet4, 2 of 2, two phones, short votes | The whole life of a DAO, quickly, with the developer at hand |
 | UNO testnet | testnet4, hardware signing | SeedSigner, recovery without the website, real vote lengths. Hardware signing passed on SEEDSIGNER DAO (10 Nov 2026) |
-| Sandbox DAO | testnet4, 3 of 5, all remote | Strangers, many devices, signatures spread over days |
+| COUNCIL DAO | testnet4, SeedSigner council | Council change in the wild: a lost key replaced and the council grown to 3 of 4 (v0.5.x, 11 Nov 2026); bounty runs paid in rounds |
+| ALPHA DAO (next) | testnet4, 2 of 3 (the developer plus two others; ordinary members on phones), its own address (alpha.byob.zone) | Founded in person at a workshop with people other than the developer: council keys made on the day, many phones, identity cards printed, votes and signatures spread over days |
 | First mainnet DAO | mainnet, treasury capped (S9) | Three monthly rounds without developer help (release condition in FORK-TASKS.md) |
 
 **Rule:** an item is ticked only when it has passed on a real network, with the release and the date written next to it. A fix found in one stage is released, and the item is tested again.
@@ -20,10 +21,13 @@
 ## 1. Founding and identity
 
 - [x] Founding in person and remote, 2 of 2, short codes checked (UNO practice, v0.1.1–v0.1.5, 6 Nov 2026)
-- [ ] Remote founding with strangers, 3 of 5, through the group (Sandbox DAO)
-- [ ] Passkeys on iPhone (Safari) and Android (Chrome), and a passkey synced to a second device
+- [ ] Founding 2 of 3 with people other than the developer, at a workshop, plus ordinary members (ALPHA DAO); growing to 3 of 5 later by a council change
+- [ ] Council keys made three ways on the day: the ready-made card, SeedSigner entropy, and the KEY route (eleven d2 dice, the SeedSigner for word 12); each key's fingerprint matches the one the DAO shows (ALPHA DAO)
+- [ ] A DAO founded on its own web address, with no keys or passkeys shared with earlier DAOs (ALPHA DAO, alpha.byob.zone)
+- [ ] Passkeys on iPhone (Safari) and Android (Chrome), and a passkey synced to a second device (ALPHA DAO)
 - [x] Identity card used to restore on a phone with its site data cleared: same identity, new passkey (UNO practice, @founder1, v0.1.7, 8 Nov 2026)
-- [ ] Sign-in on a phone that has never seen the DAO, from the site address only
+- [ ] Sign-in on a phone that has never seen the DAO, from the site address only (ALPHA DAO)
+- [ ] Identity cards printed from members' phones at the workshop, Android and iPhone, on a printer reached by Wireless Direct (no router, no internet); one card, one page (ALPHA DAO)
 
 ## 2. Treasury reading
 
@@ -38,12 +42,12 @@
 
 - [x] Payout proposal with recipient confirmation, voted and passed (UNO practice, 6 Nov 2026)
 - [x] Rejected proposal (fails on votes): UNO-0002, 0 yes, 2 no (UNO practice, v0.1.6, 6 Nov 2026)
-- [ ] Proposal without quorum
+- [ ] Proposal without quorum (ALPHA DAO)
 - [x] Vote changed before the close: only the latest vote counts; the record marks replaced votes (SEEDSIGNER DAO, 10 Nov 2026)
 - [x] Rule change, confirmed by the council: UNO-0003, payouts monthly to weekly, rules version 2 (UNO practice, v0.1.6, 6 Nov 2026)
 - [x] Rule change of the fee setting: round fees fast → economical, rules version 2, next round at 1 sat/vB (UNO DAO, v0.2.5, 9 Nov 2026)
-- [ ] Statement proposal
-- [ ] Votes of the real length (days), with members voting on different days (Sandbox DAO)
+- [ ] Statement proposal (ALPHA DAO)
+- [ ] Votes of the real length (days), with members voting on different days (ALPHA DAO)
 
 ## 4. Membership
 
@@ -58,21 +62,22 @@
 
 - [x] First payout confirmed on chain, receipt published, proposal shows paid (UNO practice, round 2026-11, v0.1.6, 6 Nov 2026: 5,000 sats, fee 181, block 159459, tx `610238de…a3b`. Reached the network on the second attempt, through Blockbook; one reorg on the way)
 - [x] A broadcast reaches the network first time, and the round confirms within a few blocks: UNO DAO's payout (block 160142) and closing (160156), SEEDSIGNER DAO's payout and closing (160349, 160355). A second broadcast is often needed to reach every source; since v0.3.0 the app sends it by itself (seen working 10 Nov 2026)
-- [ ] Round with several payouts
-- [ ] Signatures collected over days (Sandbox DAO, 3 of 5)
-- [ ] A council member declines a round, with the reason shown
-- [ ] Payment that lapses after two rounds
+- [ ] Round with several payouts (ALPHA DAO)
+- [ ] Signatures collected over days, 2 of 3, the council taking turns at one shared SeedSigner (ALPHA DAO)
+- [ ] A council member declines a round, with the reason shown (ALPHA DAO)
+- [ ] Payment that lapses after two rounds (ALPHA DAO)
+- [ ] Bounty claimed, reported and paid in tranches across rounds, by members other than the developer (ALPHA DAO)
 - [ ] Fee above the charter cap: the round waits (S5)
 - [ ] A confirmation removed by a reorg does not produce a receipt; the round waits again (seen on testnet4, 6 Nov 2026: round 2026-11 was mined, then its block dropped). v0.2.0: 3 confirmations; v0.4.0: the depth is taken per source from its own tip, the shallowest counts, and sources must agree on the block, after SEEDSIGNER DAO's payout got a receipt from mixed sources (10 Nov 2026). To prove on a real reorg
 - [x] Closing: the whole balance returns to the BTC DAO Testnet Treasury: UNO-0005, two-thirds vote, round 2026-W45, 4,541 sats back, block 159889 (UNO practice, v0.1.10, 8 Nov 2026). Reached a miner only after a manual push to Blockbook (finding 27)
 
-## 6. Hardware signing and recovery (UNO testnet)
+## 6. Hardware signing and recovery (testnet4 DAOs)
 
 - [x] SeedSigner signs a round: animated QR out, signed PSBT scanned back, signatures merged and checked (SEEDSIGNER DAO, v0.4.0, 10 Nov 2026: payout block 160349, closing block 160355; firmware 0.8.6, `docs/seedsigner.md`)
 - [x] Descriptor loaded on the SeedSigner, change shown as verified (S7, hard gate): "Your change" verified, cards A and B (9 and 10 Nov 2026)
 - [x] Every address shown in full and compared on the device (S1): the round page shows each address in full, grouped as on the device; checked by eye on both rounds
 - [x] Council founded on SeedSigner keys, scanned at sign-up; no key on any phone (SEEDSIGNER DAO, 10 Nov 2026)
-- [ ] UNO restores and spends its treasury in Sparrow without the website
+- [ ] ALPHA DAO restores and spends its treasury in Sparrow without the website
 
 ## 7. Infrastructure and security
 
@@ -81,16 +86,65 @@
 - [ ] Site mirrored on a second host; releases signed with a published hash (S2)
 - [ ] Final tallies published at every close; late votes ignored (S3)
 - [ ] State edge cases written as test cases and passing (S4)
-- [ ] Independent code review
+- [x] Independent code review: five reviewers, 14 November 2026 ([findings](docs/reviews/2026-11-14-code-review.md)); phase A fixed in v0.9.0
+- [ ] After ALPHA DAO's founding: its DAO id in its config and the relay pinned to it (the last phase A item)
+- [ ] The review's phase B findings fixed ([still open](docs/reviews/2026-11-14-code-review.md#still-open-16-november-2026-v094)), then a second review of the mainnet release
 
 ## 8. Mainnet launch conditions
 
 - [ ] Sections 1 to 7 ticked
+- [ ] Section 10's before-mainnet items ticked
 - [ ] Treasury cap set in the charter at an amount the members can afford to lose (S9)
 - [ ] The mainnet descriptor meets the floor, and the council's treasury keys are made for this DAO only (S10)
-- [ ] Watcher passed in the wild: a spend made outside the app on a testnet4 DAO shown as unmatched on every member's Home page within minutes
+- [ ] Watcher passed in the wild: a spend made outside the app on a testnet4 DAO (ALPHA DAO) shown as unmatched on every member's Home page within minutes
 - [ ] Main and spare SeedSigner from different sources (S8)
 - [ ] Mainnet config: chain sources (own indexer first), fee setting, relays
+
+## 9. Awareness and participation
+
+Added 21 November 2026. GitHub has no general messaging layer: awareness comes from making the repos easy to find and join, and from going where developers already talk. Prepare quietly now; announce just after the ALPHA DAO founding, with its public record as the proof.
+
+**Before inviting anyone in**
+
+- [ ] Two-factor authentication required for the Bitcoin-DAO and byob-zone organisations (organisation security settings)
+- [ ] Discussions switched on (repo or organisation): the public place for questions, ideas and feedback, separate from issues
+- [ ] Topics on the repos: bitcoin, dao, multisig, psbt, nostr, seedsigner, testnet4
+- [ ] Organisation profile README for Bitcoin-DAO: what btc-dao is, with links to byob.zone and ALPHA DAO
+- [ ] CONTRIBUTING.md: how to run it locally, how to test, design discussion in Discussions
+- [ ] A few small, well-described issues labelled **good first issue**
+- [ ] A tagged release with notes, so people can watch for the next one
+
+**The ALPHA DAO founding as the story**
+
+- [ ] Photos of the founding workshop: the dice and strips, the SeedSigner, the cards, the room. Never a readable SeedQR, word card, roll log or identity card, and only people who agree to be shown
+- [ ] A news post on byob.zone, linking ALPHA DAO's public record
+
+**Where to tell people**
+
+- [ ] Nostr, from the byob.zone account: the founding, with photos and a link to the record
+- [ ] The NIP: btc-dao's event format (kinds 3570–3586) submitted to nostr-protocol/nips, for reviewed developer feedback that points back to the code
+- [ ] The SeedSigner community: council signing on SeedSigners, and the plate reader fork when ready
+- [ ] Stacker News: an introduction post after the founding
+- [ ] Delving Bitcoin: specific protocol questions (the PSBT flow, the descriptor chain), once there are some to ask
+- [ ] Individual developers only with a specific question about their own project (an issue on their repo, or their listed contact), never as an advert
+
+## 10. Fiat in and fiat out
+
+**Why:** the first thing a real group asks is how euros get in (dues, donations) and how a fiat-only supplier gets paid. The DAO never touches fiat in either direction: members get their own sats, and Agents handle the fiat side of a purchase as their own business ([action gateway](docs/drafts/action-gateway.md) section 3.4; [how members get sats](docs/getting-sats.md)).
+
+Before mainnet:
+
+- [x] Members' guide to getting sats, with the rule that the DAO does not sell bitcoin ([`docs/getting-sats.md`](docs/getting-sats.md), 23 Nov 2026)
+- [ ] The guide walked through at an ALPHA DAO meeting: each member names the route they would use for dues (Italian version ready first)
+- [ ] Peer-to-peer route rehearsal (ALPHA DAO): a member buys tBTC from another person (no fiat changes hands; informally, an Agent with a wave.space account can play the seller), receives it at their standing address, and pays the dues amount to the ALPHA treasury from that coin. Outside the DAO: no proposal, no treasury coins, no badge for the seller; the seller's tBTC comes from a faucet or the BTC DAO Testnet Treasury, never from ALPHA's treasury
+- [ ] Paid-up badge built and earned in that rehearsal: the dues payment attributed automatically because it spends from the member's standing address ([badges proposal](docs/proposals/badges.md) 1.2.1)
+- [ ] Agent task rehearsal, step 1, on the current build (ALPHA DAO): one task as a bounty, member recipient, paid on completion in tBTC, delivery reported and confirmed. The outcome needs no real fiat, or is a token purchase the Agent agrees to absorb (`NEXT-RELEASE.md` L)
+- [ ] Agent task rehearsal, step 2, once claim codes are built (ALPHA DAO): one task to a non-member recipient, confirmed by the code in handover-scan mode; council members refused as claimants
+- [ ] Both Agent routes written up from a real use by the Agent (Bitrefill Card, wavecard), in the Agent's own words: what it cost and how long it took
+
+After launch, on the capped mainnet treasury:
+
+- [ ] The first mainnet DAO completes one Agent task with a fiat-only counterparty, within its first three rounds: its first real-world payment
 
 ## Findings from UNO's practice run
 
