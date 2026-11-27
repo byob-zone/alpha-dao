@@ -130,7 +130,7 @@ Design in `docs/drafts/member-loans.md`, idea agreed 18 November 2026. Interest-
 
 ## H. GRANTS DAO and repayable grants (design)
 
-Design in `docs/drafts/grants-dao.md`, idea agreed 18 November 2026. The GRANTS DAO is the verification gateway for outside funding; programme DAOs (first: SEEDSIGNER DAO) decide, and are measured by how well their repayable grants are repaid; local DAOs repay the GRANTS DAO when they can.
+Design in `docs/drafts/grants-dao.md`, idea agreed 18 November 2026. The GRANTS DAO is the verification gateway for outside funding; programme DAOs (first: SIGNER DAO) decide, and are measured by how well their repayable grants are repaid; local DAOs repay the GRANTS DAO when they can.
 
 - [x] Stage 0: idea written down (roles, flow, repayable grants, programme measures, website, additions to the core)
 - [ ] Design settled: open questions answered
@@ -140,7 +140,7 @@ Design in `docs/drafts/grants-dao.md`, idea agreed 18 November 2026. The GRANTS 
 - [ ] Applicant record shown beside the proposal; payout address checked against the applicant's descriptor
 - [ ] Programme measures (repayment rate, fully repaid, time to repay, outstanding, still active) on the dashboard
 - [ ] GRANTS DAO website from the `btc-dao-homepage` wrapper: projects supported, repayment chain
-- [ ] In the wild: a testnet4 GRANTS DAO funds a testnet4 SEEDSIGNER DAO, which gives a repayable kit grant to a testnet4 local DAO, which repays
+- [ ] In the wild: a testnet4 GRANTS DAO funds a testnet4 SIGNER DAO, which gives a repayable kit grant to a testnet4 local DAO, which repays
 
 ## I. Language of DAO content (idea to test)
 
@@ -185,6 +185,40 @@ Design in `docs/drafts/action-gateway.md` section 3.4 (PR #19, #30). Brought for
 - [ ] The Agent's choice of staged or on completion, fixed in the schedule before the vote
 - [ ] Step 2 rehearsal: a non-member recipient, confirmed by handover scan
 - [ ] Reference rules for the trust ladder (counts for non-member recipients and staged payment) as rule settings with defaults
+      
+## M. Discussion: chat stays in WhatsApp (idea; future)
+
+Decided 23 November 2026: Discussion stays the DAO's record, not its chat. Images, documents and everyday conversation stay in the group's chat app (WhatsApp); a thread's "Share the link" is the bridge between the two. No uploads, previews or formatting are planned.
+
+- [ ] "New since your last visit": unread markers on the thread list and on posts within a thread, kept on the member's own device only (no server, nothing published)
+- [ ] Notifications: see E, stage 3 (member notifications by email to verified addresses); not duplicated here
+- [ ] Ideas held for later, not planned: tap-to-show images (no automatic loading, which would reveal members' IP addresses to the image host); attachments on a Blossom server with the file's SHA-256 in the post, so the record proves which file was discussed; reply-to and quoting.
+
+## N. Market DAO on OpenBazaar (idea; watch, don't build)
+
+Noted 23 November 2026. OpenBazaar is being rebuilt in Rust (github.com/OpenBazaar/openbazaar-rs, MIT): person-to-person trade for ordinary goods; a buyer's phone app; the vendor runs the desktop app or an always-on home node, reachable over Tor. Status: Phase 0, alpha builds on testnet4 (v0.1.0-alpha.12), not signed. Idea: a DAO-owned store, where the DAO sells what its members make and the money goes to the treasury.
+
+- [ ] Shape: the store's sales go to an address the DAO's treasury controls; makers are paid through ordinary payout rounds (a proposal, a vote and the council's signatures)
+- [ ] Operator role (E, stage 1) runs the store's home node, as part of the DAO's always-on infrastructure
+- [ ] Council as moderator: OpenBazaar 2 used 2-of-3 escrow (buyer, seller, moderator). Ask whether the Rust version will have escrow and moderators, and whether a DAO council can hold the moderator key
+- [ ] Possible first goods: Made in Bosa glass editions, Anonymous Art pieces, BUONO vouchers
+
+**Check before any build:**
+- Can a store's sales be paid to an address the vendor chooses (a multisig treasury address), rather than the node's own wallet?
+- Can a store accept only bitcoin? (The node mentions BTC, ZEC and XMR prices.)
+- Escrow and dispute resolution: present, planned, or absent?
+
+**Revisit when:** OpenBazaar has a release with escrow, real stores on testnet4, and signed builds. Until then this takes no slot.
+      
+## M. Stateless signers (27 November 2026)
+
+Generic wording and a signer guide ([`docs/signers.md`](docs/signers.md)): the app and docs say **signer** (*stateless signer*, *dispositivo di firma*); a device's name appears only in its own steps. Any device meeting the requirements can be tested; only tested devices are recommended.
+
+- [x] App wording: generic, with SeedSigner menu paths kept as "on a SeedSigner: …" (v0.9.10)
+- [x] Signer guide: requirements, tested list, per-device steps; SeedSigner tested, Krux planned
+- [x] Programme DAO renamed SIGNER DAO (was SEEDSIGNER DAO)
+- [ ] **Krux test, after the ALPHA DAO workshop,** on a testnet4 DAO: key export scanned at sign-up, wallet descriptor loaded, a round signed with one SeedSigner and one Krux on the same council, the descriptor's change check confirmed on the Krux; results recorded in `docs/signers.md` like `docs/seedsigner.md`
+- [ ] Protocol note: the record's `device: "seedsigner"` value means "key on a stateless signer"; decide whether to accept a generic `"signer"` value in the NIP (old records keep theirs)
 
 ## Open items
 
